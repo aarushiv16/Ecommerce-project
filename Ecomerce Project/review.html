@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+    <link rel="stylesheet" href="review.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="Contactus.html">Contact Us</a></li>
+            <li><a href="nsignup.html">Login/Signup</a></li>
+            
+            <li><a href="review.html">Reviews</a></li>
+            
+            <li><a href="trackorder.html">Track Your Order</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Give your Feedback Here</h2>
+        <form class="review-form" id="review-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="rating">Rating:</label>
+            <div class="rating-input">
+                <input type="radio" id="star5" name="rating" value="5">
+                <label for="star5">5 stars</label>
+                <input type="radio" id="star4" name="rating" value="4">
+                <label for="star4">4 stars</label>
+                <input type="radio" id="star3" name="rating" value="3">
+                <label for="star3">3 stars</label>
+                <input type="radio" id="star2" name="rating" value="2">
+                <label for="star2">2 stars</label>
+                <input type="radio" id="star1" name="rating" value="1">
+                <label for="star1">1 star</label>
+            </div>
+
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" rows="4" required></textarea>
+
+            <button type="submit">Submit Review</button>
+        </form>
+
+        <div class="reviews-list" id="reviews-list">
+            <!-- Reviews will be displayed here -->
+        </div>
+    </div>
+
+    <script src="review.js"></script>
+</body>
+</html>

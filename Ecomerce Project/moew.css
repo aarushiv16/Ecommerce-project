@@ -1,0 +1,95 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer styles */
+.footer-section {
+    background: #151414;
+    position: relative;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.single-cta {
+    display: inline-block;
+    width: calc(33.33% - 20px); /* Distribute equally with spacing */
+    margin-right: 20px;
+    text-align: center;
+   
+}
+
+.single-cta i {
+    color: #ff5e14;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.cta-text {
+    display: inline-block;
+}
+
+.cta-text h4 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.cta-text span {
+    color: #757575;
+    font-size: 14px;
+}
+
+/* Rest of your existing CSS code */
+/* ... */
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-widget {
+    width: 30%; /* Adjust the width as needed */
+    margin-bottom: 20px;
+}
+
+.footer-widget-heading h3 {
+    color: #ff5e14;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.footer-widget-heading h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    height: 2px;
+    width: 30px;
+    background: #ff5e14;
+}
+
+.footer-widget ul li {
+    display: block;
+    margin-bottom: 8px;
+}
+

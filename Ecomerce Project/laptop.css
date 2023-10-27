@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+nav {
+    /* background-color: #6B78A4; */
+    background-color: #000000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* top:0;
+    left:0;
+    width:100%;
+    overflow: hidden; */
+    padding: 10px 0;
+  }
+    
+  
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    nav li {
+      margin: 0 15px;
+    }
+    
+    nav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    
+    nav li a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+h1{
+    font-size: 60px;
+    color: #6B78A4;
+    margin-top: 20px;
+    text-align:center;
+}
+
+.category-tile {
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    width: 300px;
+}
+
+.category-tile img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.category-tile img:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+
+.category-tile p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555;
+}
+
+.category-tile h1 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #6B78A4;
+}
+/* .category-title:active {
+    color: #1d2750; 
+} */
+
+button {
+    background-color: #6B78A4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #6B78A4;
+}
+
+
+
+.product-link {
+    color: inherit; /* Use the default text color */
+    text-decoration: none; /* Remove underline */
+}
+
+.category-tile a {
+    text-decoration: none;
+}
+
